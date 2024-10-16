@@ -1,0 +1,44 @@
+body{
+    margin: 0
+}
+
+.contenedor-flexible{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+
+.contenedor-flexible-dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+
+
+.uno, .seis{
+    background-color: lightblue;
+    width: 150px;
+    height: 50px;
+}
+
+.dos, .siete{
+    background-color: lightcoral;
+    width: 150px;
+    height: 150px;
+}
+
+.tres, .ocho{
+    background-color: lightcyan;
+    width: 150px;
+    height: 100px;
+}
+
+.cuatro, .cinco{
+    background-color: lightgoldenrodyellow;
+    width: 150px;
+    height: 150px;
+}
